@@ -1,12 +1,12 @@
 package ba.unsa.etf.rpr;
 import java.util.Scanner;
 
-public class RPRPrviZadatak {
+public class RPRCloniranPrvi {
 
     public static void main(String[] args) {
         Scanner ulaz = new Scanner(System.in);
 
-        System.out.println("Molimo da unesete cijeli broj: ");
+        System.out.println("Molimo da unesete cijeli broj:(Klonirano sa git-a i radi! ");
         int mojaVarijabla = ulaz.nextInt();
 
         for (int i = 1; i <= mojaVarijabla; i++)
