@@ -6,7 +6,7 @@ public class RPRCloniranPrvi {
     public static void main(String[] args) {
         Scanner ulaz = new Scanner(System.in);
 
-        System.out.println("Molimo da unesete cijeli broj:(Klonirano sa git-a i radi! ");
+        System.out.println("Promijenio sam tekst ovdje, ovo je za commit na githubu");
         int mojaVarijabla = ulaz.nextInt();
 
         for (int i = 1; i <= mojaVarijabla; i++)
